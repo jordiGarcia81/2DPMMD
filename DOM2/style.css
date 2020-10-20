@@ -1,0 +1,28 @@
+#fondo{
+    background-color: silver;
+    font-family: sans-serif;
+    margin-left: 20px;
+    font-size: 8px;
+    
+}
+
+input{
+        border-radius: 77px 77px 77px 77px;
+        border: 0px solid #ffffff;
+        background-color: darkblue;
+        color:white;
+    }
+footer{
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 20px;
+        color: white;
+        align-content: center;
+        text-align: center;
+    }
+p{
+    margin-left: 40px;
+    padding: 20px;
+}
