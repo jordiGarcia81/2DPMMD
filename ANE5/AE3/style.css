@@ -1,0 +1,98 @@
+ .disenyoNav{
+   float: left;
+
+ }
+ 
+ body{
+   text-align: center;
+ }
+ #barraNavegacion{
+  height: 20px;
+  text-align: center;
+ }
+ #barraProgreso{
+    width: 62%;
+    height: 20px;
+    height: 21px !important;
+ }
+
+ #barraProgreso{
+ float: left;
+ border: 1px black solid;
+  
+ }
+ .boton{
+  float: left;
+  border-radius: 3px 3px 3px 3px ;
+  background-color:blue ;
+  color: white;
+ }
+
+ .boton:hover{
+  background-color: coral;
+  color: black;
+ }
+
+ .boton2{
+  float: center;
+  border-radius: 3px 3px 3px 3px ;
+  background-color:blue ;
+  color: white;
+ }
+
+ .boton2:hover{
+  background-color: coral;
+  color: black;
+ }
+ 
+
+ #errores{
+   background-color: lightgray;
+   color: tomato;
+   border: 1px red solid;
+ }
+ /*#botonAtras, #botonContinuar :hover{
+  background-color: lightsalmon solid;
+  color: black;
+ }*/
+ .barcss{
+   float: left;
+   width: 25%;
+   height: 21px;
+ }
+
+ li{
+   list-style: none;
+   font-family: sans-serif;
+   font-size: 16px;
+   color: #5d5d5d;
+ }
+
+ .my-grid-row {
+  display: inline-flex;
+}
+
+.labelcol{
+  float: left;
+  width: 40%;
+}
+.my-col {
+ 
+  height: 49px;
+  width: 80%;
+  margin-top: 16px;
+  text-align: initial;
+}
+@media screen and (max-width: 600px) {
+  .my-grid-row {
+      display: initial;
+      
+  }
+
+  .my-col {
+      width: initial;
+     
+  }
+
+}
+ 

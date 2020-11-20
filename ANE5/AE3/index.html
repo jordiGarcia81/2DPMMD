@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>AE3 PMD</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script  src="main.js"></script>
+</head>
+
+<body>
+
+
+<div id="barraNavegacion">
+  <div  >
+    <button id="botonAtras"  class="boton"onclick="barraProgres(0)">Atras</button>
+  </div>
+  <div id="barraProgreso">
+    <div id="barra1" class="barcss"></div>
+    <div id="barra2" class="barcss"></div>
+    <div id="barra3" class="barcss"></div>
+    <div id="barra4" class="barcss"></div>
+  </div>
+  <div >
+    <button class="boton" onclick="barraProgres(1)">Continuar</button>
+  </div>
+</div>
+
+  <div id="paso1">
+    <div id="titulo">
+      <h1>AE3 Eventos y formularios en el DOM</h1>
+    </div>
+    <h3>Descripción de la aplicación:</h3>
+    <ul >
+      <li>1. Introducir una dirección web en URL y continuar para seguir en el paso 2</li>
+      <li>2. Insertar las datos del usuario mediante un formulario sin dejar campos vacios, en caso sontrario se mostraran los errores correspondientes. Pulsar continuar y seguir en el paso 3</li>
+      <li>3. Confirmacón de los datos introducidos de manera que el usuario pueda aceptarlos o volver al paso de modificación de los mismos en el boton atras y si está todo correcto pulsar en el boton continuar para ir al paso 4</li>
+      <li>4. Mensaje de agradecimiento: pantalla en la que mostraremos un mensaje de confirmación de envío, agradeciendo su colaboración.Pulsar en el boton terminar y se dirigira a la URL introducida en el paso 1</li>
+    </ul>
+    <span>URL:</span>
+    <input type="text" id="url">
+  </div>
+  <div id="paso2">
+    <div class="my-grid-row">
+      <fieldset>
+      <legend>Datos personales:</legend>
+      <div class="my-col"><div class="labelcol">* Nombre: </div><input type="text" id="nombre" ></div>
+      <div class="my-col"><div class="labelcol">* Apellidos: </div><input type="text" id="apellidos" ></div>
+      <div class="my-col"><div class="labelcol">* Fecha de nacimiento:  </div><input type="date" id="fecha"></div>
+      <div class="my-col"><div class="labelcol">Dirección: </div><input type="text" id="direccion" ></div>
+      <div class="my-col"><div class="labelcol">* Código Postal: </div><input type="text" size="5" id="codpostal" ></div>
+      <div class="my-col"><div class="labelcol">* Provincia: </div><input type="text" id="provincia" ></div>
+      <div class="my-col"><div class="labelcol">* Municipio: </div><input type="text" id="municipio" ></div>
+      <p>* (campo requerido)</p>
+  </fieldset>
+  </div>
+  </div>
+  <div id="paso3">
+    <fieldset>
+      <legend>Datos personales:</legend>
+      <div class="my-col"><div class="labelcol">Nombre: </div><input type="text" id="nombrePREV" ></div>
+      <div class="my-col"><div class="labelcol">Apellidos: </div><input type="text" id="apellidosPREV" ></div>
+      <div class="my-col"><div class="labelcol">Fecha de nacimiento:  </div><input type="datePREV" id="fechaPREV"></div>
+      <div class="my-col"><div class="labelcol">Dirección: </div><input type="text" id="direccionPREV" ></div>
+      <div class="my-col"><div class="labelcol">Código Postal: </div><input type="text" id="codpostalPREV" ></div>
+      <div class="my-col"><div class="labelcol">Provincia: </div><input type="text" id="provinciaPREV" ></div>
+      <div class="my-col"><div class="labelcol">Municipio: </div><input type="text" id="municipioPREV" ></div>
+  </fieldset>
+  </div>
+  <div id="paso4">
+    <br>
+    <br>
+    <br>
+    <div >
+    <center><button class="boton2" onclick="message()" >Terminar</button></center>
+  </div>
+  </div>
+  <div id="errores"></div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <!--<ul>
+     
+    
+    <li><a href="formulario.html">Siguiente</a></li>
+    </ul>
+
+  <br>
+  <div >
+    <h1>AE3 Eventos y formularios en el DOM</h1>
+    <br>
+    <h2>Descripción de la aplicación:</h2>
+  <br>
+  <h3>Consta de 4 pasos:</h3>
+  <br>
+  <p>1. descripción de los pasos de la aplicación.</p>
+  <br>
+  <p>2. Insertar las datos del usuario mediante un formulario </p>
+  <br>
+  <p>3. Confirmacón de los datos introducidos de manera que el usuario pueda aceptarlos o volver al paso de modificación de los mismos.</p>
+  <br>
+  <p>4. Mensaje de agradecimiento: pantalla en la que mostraremos un mensaje de confirmación de envío, agradeciendo su colaboración.</p>
+  <br>
+  
+  
+  <center><p>Introducir URL</p></center>
+  <center><input type="text" name="texto"></center>
+  <br>
+  <input  id="boton" type="button"  value="continuar"></a>
+  <br>
+  <br>
+  <br>
+  </div>-->
+  
+</body>
+</html>
